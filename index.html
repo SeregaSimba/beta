@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Информация про операционную систему-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>First_js</title>
+</head>
+<body>
+    <header>
+        <div class="header default-container">
+            <div class="logo">
+                <a href="#"><img class="logot" src="img/icons8-brave-web-browser.svg" alt="logo"></a>
+            </div>
+            <div class="h1">
+                <h1>План На неделю</h1>
+            </div>
+            <div class="links1">
+                <ul class="links2 img">
+                    <li><a href="#"></a><img src="img/icons8-vk.svg" alt="VK"></li>
+                    <li><a href="#"></a><img src="img/icons8-instagram.svg" alt="Insta"></li>
+                    <li><a href="#"></a><img src="img/icons8-почта.svg" alt="mail"></li>
+                    <li class="musik"><a href="#"></a><img src="img/icons8-музыка.svg" alt="mysik"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <article class="posters-lbl">
+                <div class="lbl">
+                    <div class="posters-lbl">
+                        <img class="article2" src="img/i3.jpg" alt="icin"> 
+                    </div>
+                </div>
+                <div class="article default-container">
+
+                    <section>
+                    <div class="section default-container">
+                        <img class="lera" src="img/i.jpg" alt="lera" title="lera">
+                        <form action="#">
+                            <ul class="textarea">
+                                <li><input type="checkbox" name="chec1"><textarea placeholder="впиши план на дкнь" name="one" id=""></textarea></li>
+                                <li><input type="checkbox" name="chec2"><textarea placeholder="впиши план на дкнь"  name="two" id=""></textarea></li>
+                                <li><input type="checkbox" name="chec3"><textarea placeholder="впиши план на дкнь"  name="three" id=""></textarea></li>
+                                <li><input type="checkbox" name="chec4"><textarea placeholder="впиши план на дкнь"  name="four" id=""></textarea></li>
+                                <li><input type="checkbox" name="chec5"><textarea placeholder="впиши план на дкнь"  name="five" id=""></textarea></li>
+                                <li><input type="checkbox" name="chec6"><textarea placeholder="впиши план на дкнь"  name="six" id=""></textarea></li>
+                                <li><input type="checkbox" name="chec7"><textarea placeholder="впиши план на дкнь"  name="seven" id=""></textarea></li>
+                            </ul>
+                        </form>
+                    </div>
+                    </section>
+
+                    <section>
+                        <div class="barmenu default-container">
+                            <img src="img/i2.jpg" alt="serega" title="serega">
+                            <form action="#">
+                                <ul class="textarea">
+                                    <li><input type="checkbox" name="chec1"><textarea placeholder="впиши план на дкнь" name="one" id=""></textarea></li>
+                                    <li><input type="checkbox" name="chec2"><textarea placeholder="впиши план на дкнь"  name="two" id=""></textarea></li>
+                                    <li><input type="checkbox" name="chec3"><textarea placeholder="впиши план на дкнь"  name="three" id=""></textarea></li>
+                                    <li><input type="checkbox" name="chec4"><textarea placeholder="впиши план на дкнь"  name="four" id=""></textarea></li>
+                                    <li><input type="checkbox" name="chec5"><textarea placeholder="впиши план на дкнь"  name="five" id=""></textarea></li>
+                                    <li><input type="checkbox" name="chec6"><textarea placeholder="впиши план на дкнь"  name="six" id=""></textarea></li>
+                                    <li><input type="checkbox" name="chec7"><textarea placeholder="впиши план на дкнь"  name="seven" id=""></textarea></li>
+                                    <div id="ss"></div>
+                                    <div id="ssa"></div>
+                                </ul>
+                            </form>
+                        </div>
+                    </section>
+                    
+                </div>
+    </article>
+
+    <footer class="footer-on default-container">
+        <div class="footer default-container">
+            <div class="footer2">
+                <ul class="footer-con">
+                    <li class="red"><a href="#">контакты</a></li>
+                    <li class="gren"><a href="#">контакты</a></li>
+                    <li class="blue"><a href="#">контакты</a></li>
+                    <li class="magenta"><a href="#">контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="resalt">
+
+        </div>
+
+    </footer>
+    <script> src="/Users/ceregasimba/Documents/GitHub/core-js-strings/src/strings-tasks.js" </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script tupe="text/babel">
+       
+
+        const passvordUser = prompt(`Здравствуй! Веди всой пороль`)
+        const nameUser = prompt(`Как тебя Зовут${passvordUser}? Желательно указать на US`)
+
+        const obj = {
+            [passvordUser]: nameUser,
+        }
+
+        console.log(obj)
+
+
+        const colIcon = nameUser === 
+        'Артем' ?
+        alert('Ведди текст на US') :
+        nameUser === 'Lera'
+        ? alert('Здравствуй Самая прекрасная девушка на всем свете!!!') :
+        nameUser === 'Serega'
+        ? alert('Здравствуй Господин!!!') :
+        nameUser === 'Artem'
+        ? alert('У тебя все получилось + 100 к Карме') :
+        nameUser === ''
+        ? alert('Опасность Вторжение')
+        : alert('Что-то пошло не тек, первая буква заглавная, "Sergei"')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        const encrypt = (text) => {
+//     let i = 0;
+//     let result = '';
+
+//     while (i < text.length) {
+//         const step = text[i + 1] || '';
+//         result = `${result}${step}${text[i]}`;
+//         const tex = text[i];
+        
+//         i += 2;
+//     }
+//     return result;
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        const hasChar = (number, str) => {
+//     let i = 0;
+//     let result = '';
+
+//     while (i < number.length) {
+//         result = `${result}${number}`;
+//         const strit = str;
+//         if (strit === number[i]) {
+//             return 'true'
+//         }else {
+//             return 'false'
+//         }
+        
+//     }
+//     return result
+// };
+// console.log(hasChar('Hello', 'H'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        const makeItFunny = (text, str) => {
+//     let i = 0;
+//     let result = '';
+
+//     while (i < text.length) {
+//         const strit = text[i];
+//         if ((i + 1) % str === 0) {
+//         result = `${result}${strit.toUpperCase()}`;
+//         }
+//         else {
+//         result = `${result}${strit}`; 
+//         }
+//         i++;
+//     }
+//     return result;
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+//        const filterString = (str, st) => {
+// let i = 0;
+// let result = '';
+
+// while (i < str.length) {
+//     const strit = str[i];
+//     if (strit !== st) {
+//         result = `${result}${strit}`;
+//     }
+//     i += 1;
+// }
+// return result;
+// };
+
+// console.log(filterString('hello', 'l'));
+
+
+
+
+
+
+
+
+
+
+    //     const even = (eve) => {
+    //     let i = 0;
+    //     let result = '';
+
+    //     while (i < eve.length) {
+    //         result = eve[i] + result[i];
+    //         i = i + 1;
+    //     }
+    //     return result;
+    // };
+       
+
+    //     console.log();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // const truncate = (Привет, Мир) => {
+        //     const index = `${text.slice(0, length)}...!!!`;
+        //     return index;
+        // };
+        // document.getElementById('resalt').innerHTML = truncate;
+        
+    
+
+
+        // const smail = (s, z = 0) => {
+            
+        //     return `${'❤️'.repeat(z)}`;
+        // };
+        // console.log(smail(111,189));
+
+
+        // const number = (numberOne) => {
+        //     let i = 4;
+
+        //     while (i >= numberOne) {
+        //     console.log(i);
+        //     i = i - 1;
+        //     }
+        //     console.log('Finish');
+        // };
+        // number(1);
+        
+        // const returnNumberOn = (text, number) => {
+        //     let result = '';
+        //     let i = text;
+
+        //     while (i <= number) {
+        //         result = `${result}${i}`;
+               
+        //         i = i + 1;
+        //     }
+        //     return result;
+        // };
+        // console.log(returnNumberOn(1, 2));
+
+
+
+                    // BEGIN (write your solution here)
+            // const printReversedWordBySymbol = (name) => {
+            //     let i = 0;
+                
+
+            //     while (i <= name.length -1) {
+            //         console.log(name[i]);
+            //         i = i + 1;
+            //     }
+                
+            // };
+            // const name = ('Hexlet');
+            // console.log(printReversedWordBySymbol(name));
+            // END
+
+      
+
+
+    //          const countChars = (start, col) => {
+    //          let i = 0;
+    //          let number = 0;
+    //             while (i < start.length) {
+    //             if (start[i] === col.toLowerCase()) {
+    //                 number = number + 1;
+    //             }else if (start[i] === col.toUpperCase()) {
+    //                 number = number + 1;
+    //             }
+    //             i = i + 1;
+    //             }
+    //             return number;
+    //     };
+    //     // END
+
+    //    console.log(countChars('HellohL!', 'l'));
+
+
+
+
+
+
+
+
+
+
+
+        // class Massenger {
+
+        //     constructor(value, delay) {
+        //         this.value = value;
+        //         this.delay = delay;
+        //     }
+        //     showMassenger() {
+        //         setTimeout(() => {
+        //             document.getElementById('resalt').innerText = this.value;
+        //         },this.delay);              // стрелочная функция
+        //         // let self = this;
+        //         // setTimeout(function() {
+        //         //     document.getElementById('resalt').innerText = self.value;
+        //         // }, this.delay);
+        //     }
+        // }
+
+        // var massenger = new Massenger("Привет Мир", 2000);
+        // massenger.showMassenger();
+        // alert();
+
+
+
+
+        // let info = "We couldn't verify your mother's maiden name.";
+        // let intro = 'Here is important information about your account security.';
+        // let infoIntro = intro + '\ninfo\'';
+        // let firstName = 'Joffrey';
+        // let greeting = 'Hello';
+        // let firstNameGreeting = '\ngreeting\,' + '\nfirstName\!';
+        // // BEGIN (write your solution here)
+        // concole.log(firstNameGreeting + infoIntro);
+
+
+
+
+
+
+
+
+
+        // class Massenger {
+
+        //     constructor(value, delay) {
+        //         this.value = value;
+        //         this.delay = delay;
+        //     }
+
+        //     showMassege() {
+        //         let self = this;
+        //         setTimeout(function () {
+        //             document.getElementById('resalt').innerText = self.value;
+        //         }, this.delay);
+        //     }
+
+
+        // }
+        // var massenger = new Massenger('Провет чем могу тебе помочь', 2000);
+        // massenger.showMassege();
+
+            // document.onload
+            // var riga = document.getElementById('resalt');
+           
+            // //  riga.setAttribute('class', 'hidden');
+
+            // // debugger
+            // var feri = document.createElement('a');
+            // feri.setAttribute('href', 'http://google.com',);
+            // //feri.setAttribute('value', 'heloo');
+            // feri.innerHTML = "hello";
+            // feri.setAttribute('class', 'xyi');
+            // riga.appendChild(feri);
+
+            
+
+
+
+       // function calculate(numbr) {
+       //     return numbr * 2; }
+
+
+        // var calculate = numbr => numbr * 2;
+
+        // document.getElementById('resalt').innerText = calculate(8);
+
+        
+
+
+
+
+
+
+
+
+
+
+        // var name = 'Serega';
+        // var many_menu_one = 6;
+        // var many_menu_two = 7;
+        // var many_menu_for = 4;
+        // document.getElementById('resalt').innerText = `
+        // Hello, ${name}! 
+        // Total: $ ${many_menu_one + many_menu_two + many_menu_for}
+        // `;
+
+        //document.getElementById('resalt').innerText = "Hellow, "+name+"! \n Totol: $"+(
+          //many_menu_one + many_menu_two + many_menu_for);
+        //var resalt = document.getElementById("resalt");
+
+
+
+
+
+
+        // var beverges = ["kola", "sprait", "fanta", "lomon"];
+        // var chocolate = ["snicers", "baunti", "nac"];
+        // var food = ["cips", ...beverges, "hod-dog", ...chocolate];
+        // console.log(food);
+
+        // function myFunction(a, b, c) {
+
+        //     console.log(b);
+        // }
+        // var args = [0, 1, 2];
+        // myFunction.apply(null, args);
+        // myFunction(...args);
+
+        // var myarray = [...food];
+        // console.log(myarray);
+
+        // const SETTINGS = {
+        //     url: "htpps://api.best.torez.com",
+        //     key: "1234567891011"
+        // }
+        // console.log(SETTINGS.url);
+
+        // const DB_NAME = "besttorez";
+        // if(DB_NAME === "besttorez") {
+        //     DB_NAME = "Serega";
+        //     console.log(DB_NAME);
+        // }
+        // console.log(DB_NAME);
+
+
+        // var ss = document.getElementById('ss');
+        // for(let i = 1; i <= 6; i++) {
+        //     var item = document.createElement('span');
+        //     item.appendChild(document.createTextNode('levln' + i));
+        //     ss.appendChild(item);
+
+        //     item.onclick = function() {
+        //     document.getElementById('ssa').innerHTML = 'ss  ' + i + '  is select';
+
+               
+        //     }
+            
+            
+        // }
+            
+
+
+
+
+
+
+        // var balance = 2000;
+        // if(balance > 0) {
+        //     let balance = 3000;
+        //     console.log(balance);
+        // }
+        // console.log(balance);
+
+
+
+        //  let name = "serega";
+        //  document.getElementById("ss").innerHTML = name;
+        //  const getMassage = () => "first" ;
+    </script>
+    <script src="first.js"></script>
+</body>
+</html>
